@@ -1,4 +1,6 @@
   
 void call(){
-  println "gradle: build()"
+  stage("GradleBuild") {
+    println "Executing the Gradle: build()"
+  }
 }
